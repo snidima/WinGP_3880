@@ -75,6 +75,13 @@
       <height value="1224"/>
       <unit value="english"/>
     </paper>
+    <paper name="TEST-SIZE">
+      <description translate="value" value="TEST-SIZE"/>
+      <comment value="TEST-SIZE-COMMENT"/>
+      <width value="1191"/>
+      <height value="2041"/>
+      <unit value="english"/>
+    </paper>
     <paper name="Executive">
       <description translate="value" value="Executive"/>
       <comment value="7.25in x 10.5in"/>
