@@ -1,0 +1,7 @@
+1. Remove all previous versions and "xml" folder to. 
+2. Run gpspooler.exe
+3. Select "Settings" tab
+4. Press button "Install"
+5. Copy the plugin the appropriate folder.
+6. Restart application.
+

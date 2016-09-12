@@ -1,0 +1,1 @@
+copy gimpgpui2.exe "C:\Program Files\GIMP-2.0\lib\gimp\2.0\plug-ins\" 
