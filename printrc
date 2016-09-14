@@ -1,7 +1,7 @@
 #PRINTRCv4 written by Gutenprint 5.2.6 - 10 Aug 2010
 
 Global-Settings:
-  Current-Printer: "WHITE"
+  Current-Printer: "CMYK"
   Show-All-Paper-Sizes: False
   PrintCommand ""
   QueueSelect ""
@@ -17,17 +17,17 @@ Printer: "CMYK" "escp2-3880"
   Output-Filename: ""
   Extra-Printer-Options: ""
   Custom-Command: ""
-  Scaling: -655.080
+  Scaling: -300.030
   Orientation: 0
   Autosize-Roll-Paper: 0
   Unit: 3
-  Left: 318
-  Top: 294
-  Custom_Page_Width: 1224
-  Custom_Page_Height: 2126
+  Left: 0
+  Top: 0
+  Custom_Page_Width: 1191
+  Custom_Page_Height: 2551
   Parameter STPUICopyCount Int True 1
-  Parameter Quality String True "Standard"
-  Parameter PageSize String True "Custom"
+  Parameter Quality String True "UltraPhoto"
+  Parameter PageSize String True "MAIN"
   Parameter MediaType String True "Photo"
   Parameter CDInnerRadius String True "Standard"
   Parameter CDOuterDiameter Dimension True 329
@@ -35,13 +35,13 @@ Printer: "CMYK" "escp2-3880"
   Parameter CDXAdjustment Dimension True 0
   Parameter CDYAdjustment Dimension True 0
   Parameter CDAllowOtherMedia Boolean True False
-  Parameter Resolution String True "1440x720mw"
+  Parameter Resolution String True "1440x1440mw"
   Parameter InkType String True "CMYK"
   Parameter UseGloss Boolean True False
   Parameter InkSet String True "ultra3photo"
   Parameter PrintingDirection String True "Bidirectional"
   Parameter FullBleed Boolean True False
-  Parameter Weave String True "EightPass"
+  Parameter Weave String True "None"
   Parameter OutputOrder String False "Standard"
   Parameter PrintingMode String True "Color"
   Parameter BlueHueCurve Curve False '<?xml version="1.0"?>
@@ -88,11 +88,11 @@ xsi:schemaLocation="http://gimp-print.sourceforge.net/xsd/gp.xsd-1.0 gutenprint.
   Parameter DropSize2 Double False 0.000000
   Parameter DropSize3 Double False 1.000000
   Parameter BandEnhancement Int True 4
-  Parameter PaperThickness Int False 0
+  Parameter PaperThickness Int True 255
   Parameter FeedSequence Int False 0
   Parameter PrintMethod Int False 0
   Parameter PlatenGap Int False 0
-  Parameter ColorCorrection String True "Accurate"
+  Parameter ColorCorrection String True "None"
   Parameter ChannelBitDepth String True "8"
   Parameter InputImageType String True "CMYK"
   Parameter Brightness Double True 1.000000
@@ -257,8 +257,8 @@ xsi:schemaLocation="http://gimp-print.sourceforge.net/xsd/gp.xsd-1.0 gutenprint.
 </curve>
 </gutenprint>
 '
-  Parameter Density Double True 8.000000
-  Parameter DitherAlgorithm String True "Adaptive"
+  Parameter Density Double True 3.000000
+  Parameter DitherAlgorithm String True "None"
   Parameter ImageType String True "Photo"
 
 Printer: "WHITE" "escp2-3880"
@@ -267,17 +267,17 @@ Printer: "WHITE" "escp2-3880"
   Output-Filename: ""
   Extra-Printer-Options: ""
   Custom-Command: ""
-  Scaling: -213.685
+  Scaling: -300.000
   Orientation: 0
   Autosize-Roll-Paper: 0
   Unit: 3
   Left: 0
-  Top: 58
-  Custom_Page_Width: 1182
-  Custom_Page_Height: 2236
+  Top: 0
+  Custom_Page_Width: 1191
+  Custom_Page_Height: 2041
   Parameter STPUICopyCount Int True 1
   Parameter Quality String True "None"
-  Parameter PageSize String True "Custom"
+  Parameter PageSize String True "TEST-SIZE"
   Parameter MediaType String True "Photo"
   Parameter CDInnerRadius String True "Standard"
   Parameter CDOuterDiameter Dimension True 329

@@ -72,14 +72,14 @@
       <description translate="value" value="Tabloid"/>
       <comment value="11in x 17in"/>
       <width value="792"/>
-      <height value="1224"/>
+      <height value="122204"/>
       <unit value="english"/>
     </paper>
-    <paper name="TEST-SIZE">
-      <description translate="value" value="TEST-SIZE"/>
+    <paper name="MAIN">
+      <description translate="value" value="MAIN"/>
       <comment value="TEST-SIZE-COMMENT"/>
       <width value="1191"/>
-      <height value="2041"/>
+      <height value="2551"/>
       <unit value="english"/>
     </paper>
     <paper name="Executive">
